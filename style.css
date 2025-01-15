@@ -1,0 +1,24 @@
+h1{
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#weather-data{
+    background-color: rgba(176, 216, 230, 0.4);
+    width: 300px;
+    text-align: center;
+    
+}
+body{
+    background-image:url(sky.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#loading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: brown;
+}
+#elements{
+    margin: auto
+}

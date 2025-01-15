@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="style.css" rel="stylesheet" />
+  <title>Weather App</title>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Weather App</h1>
+      <div id="inputs">
+        <label for="" >Select Country Code:</label>
+        <select type="number" id="fCC" placeholder="Country Code">
+          <option value="1">1 | USA</option>
+          <option value="55">55 | Brazil</option>
+          <option value="82">82 | S. Korea</option>
+          <option value="54">54 | Argentina</option>
+        </select> <br>
+        <label for="flocation">Select City:</label>
+        <input type="text" id="flocation" placeholder="City name"> <br>
+        <input type="submit" id="submit" onclick="fetchInfo()" value="Search" />
+      </div>
+      <div id="weather-data" style = "display: none;">
+        <p id="loading">Loading...</p>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
